@@ -1,0 +1,179 @@
+/* start global  */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+/* end global */
+
+/* start login form */
+.login
+{
+    width: 300px;
+    margin: 100px auto;
+}
+.login h4
+{
+    color: #7a89d0;
+    margin-bottom: 20px;
+    text-transform: capitalize ;
+}
+.login input
+{
+    margin-bottom: 10px;
+}
+.login .form-control
+{
+    background-color: #eaeaea;
+}
+.login .btn
+{
+    background-color: #008dde;
+}
+/* end login form */
+
+/* start navbar */
+.navbar-expand-md 
+{
+    background-color: #132a6b ; 
+    padding: 0;
+    color: #fff !important;
+}
+.navbar-expand-md .navbar-brand
+{
+    font-size: 1em;
+}
+.navbar-expand-md .navbar-nav .nav-link,
+.navbar-expand-md .navbar-brand
+{
+    padding: 15px 12px;
+    margin: 0;
+    color: #fff;
+}
+.navbar-expand-md .navbar-brand:hover
+{
+    color: #fda729;
+}
+.navbar-expand-md .navbar-nav .nav-link:hover
+{
+    color: #fda729;
+}
+.dropdown-toggle:hover,
+.dropdown-toggle:focus,
+.dropdown-menu
+{
+    color: #fda729;
+}
+.dropdown-menu
+{
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    color: #fda729;
+}
+.dropdown-menu .dropdown-item
+{
+
+    background-color: #132a6b;
+    color: #fda729;
+    padding: 10px 15px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.dropdown-menu .dropdown-item:hover
+{
+    padding: 10px 25px;
+}
+/* end navbar */
+
+
+.magnage-items img
+{
+    width: 80px;
+    height: 80px;
+}
+
+/* form items */
+.form-item .form-group {
+    width: 40%;
+    margin: 20px auto;
+}
+/* form items */
+
+/* Start Categories Page */
+.categories .card-header
+{
+    color: #132a6b;
+    font-weight: 600;
+    font-size: 17px;
+    background: #fda729;
+}
+.categories .card-body
+{
+    padding: 0;
+}
+.categories .cat .full-view p
+{
+    margin: 10px 0;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 600;
+}
+.categories hr
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.categories .cat
+{
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.categories .cat:hover
+{
+    background-color: #eee;
+}
+.categories .cat:hover .hidden-buttons
+{
+    top: 18px;
+}
+.categories .cat .hidden-buttons
+{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .4s ease-in-out;
+    position: absolute;
+    top: -100px;
+    right: 10px;
+}
+.categories .cat .hidden-buttons a
+{
+    margin-right: 5px;
+}
+.categories .cat h3
+{
+    margin: 0; 
+    cursor: pointer;
+    font-weight: bold;
+    color: #132a6b;
+}
+.categories .cat:last-of-type ~ hr
+{
+    display: none;
+}
+.add-category
+{
+    margin: 30px 0;
+}
+/* End Categories Page */
